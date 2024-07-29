@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E8E8E8;
+ 
+}
+
+.header {
+  padding: 10px 10px;
+ background-color: white;;
+  /* color: 			black; */
+  overflow :hidden;
+  height: 45px;
+}
+
+.search{
+    float:left;
+    padding-left: 150px;
+}
+.content {
+  padding: 16px;
+}
+.header img{
+  display: block;
+  float: left;
+  width: 35px;
+  height: 35px;
+  /* margin-top: 8px; */
+}
+.search-container {
+padding-left: 5px;
+  float: left;
+}
+
+.search-container input[type=text] {
+  border: none;
+  border: none;
+  background-color:#F5F5F5;
+  font-size: 16px; 
+ 
+}
+   /* padding: 6px;
+ 
+  font-size: 16px; 
+  height:25px;
+  width: 250px;
+  border: none;
+  background-color:#F5F5F5;
+  border-radius: .5rem; */
+
+/* } */
+
+.input{
+  padding: 6px;
+  padding-bottom: .5rem;
+  /* margin-top: 6px; */
+  font-size: 16px; 
+  height:28px;
+  width: 300px;
+  border: none;
+  background-color:#F5F5F5;
+  border-radius: .5rem;
+}
+
+.hedaer .search-container button {
+  float: right;
+   padding: 6px 10px;
+  margin-top: 4px;
+  margin-right: 10px; 
+  background: #ddd;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="header" id="myHeader">
+    <div class="search">
+        <img src="logo.png" alt="Logo">
+        <div class="search-container">
+          
+          <form action="">
+            <div class="input">
+            <span  class="material-icons " >search</span>
+            <input type="text" placeholder="Search.." name="search">
+          </div>
+          </form>
+        </div>
+    </div>
+ <div class="container">
+  <div class="nav">
+    <div class="box" id="box1"><a href="#home" ><span  class="material-icons " >home</span><br>Home</a></div>
+    <div class="box" id="box2"><a href="#home" ><span  class="material-icons " >group</span><br>My Network</a></div> 
+    <div class="box" id="box2"><a href="#home" ><span  class="material-icons " >handshake</span><br>Jobs</a></div> 
+    <div class="box" id="box3"><a href="#home" ><span  class="material-icons " >chat</span><br>Messaging</a></div>
+    <div class="box" id="box4"><a href="#home" ><span  class="material-icons " >notifications</span><br>Notification</a></div>
+    <div class="box" id="box4"><img src="avatar.png" style="width: 4rem;height: 2rem;"/><span style="padding-right:2rem; color: 		#606060;">Me</span></div>
+</div>
+ </div>
+</div>
+<div class="container">
+<div class="content">
+  <div class="section">
+    <div class="section1">
+      <div class="bg">
+        <img src="avatar.png" />
+      </div>
+      <div class="name">
+        <h4>MARY SOPHIYA</h4>
+        <p>Software Engineer</p>
+      
+      </div>
+      <hr>
+ <div class="profile"> 
+  <span style="color: #89CFF0;padding-right: 1rem;">4</span>
+  <p>Profile viewers</p>
+ 
+  <p>View all analytics</p>
+ </div>
+ <hr >
+ <div class="career">
+  <p>Achieve your career goals</p>
+  <span style="font-weight: 600;">Try Premium for AED 0</span>
+ </div>
+ <hr>
+
+ <div ><span  class="material-icons " style="color: gray;padding-top: 1rem;padding-left: 1rem;">bookmark</span >&nbsp;&nbsp;<b style="padding-left: 1rem;">Saved items</b></div>
+      
+</div>
+<br>
+    <div class="section11">
+    <p style="padding-left: 1rem;padding-top: 1rem;font-size: .9rem;">  Recent</p>
+      <ul >
+        <li><span class="material-icons" >group</span> Artificial Intelligence Investors...</li>
+        <li><span class="material-icons">group</span>Python Developers Communit....</li>
+        <li>Automated Language Transati...</li>
+        <li>India</li>
+        <li>Android | Flutter Development...</li>
+      </ul>
+<br>
+      Groups
+      <ul>
+        <li>Artificial Intelligence Investors...</li>
+        <li>Python Developers Communit...</li>
+        <li>Automated Language Translati...</li>
+        Show more
+      </ul>
+      <div>
+        <p>Events</p><span></span>
+        <p>Followed Hashtags</p><span></span>
+        </div>
+        <p>india</p>
+        See all
+        <hr>
+        <p>Discover more</p>
+
+    </div>
+ 
+  </div>&nbsp;&nbsp;&nbsp;&nbsp;
+ <div class="container">
+  <div class="post-container">
+    <div class="post1"><br>
+      <div class="post1_img">
+        <img src="avatar.png" class="avatarlog" alt="avatar"/>
+        <input type="text" placeholder="Start a post, try writing with AI" name="post">
+      </div>
+      <div class="post1_menu">
+        <span  class="material-icons " style="color: #0096FF;">movie</span>&nbsp;&nbsp;&nbsp;
+        <a href="#" >Media</a>
+        <span  class="material-icons " style="color:#CF9FFF;">work</span>&nbsp;&nbsp;&nbsp;
+        <a href="#" >Job</a>
+        <span  class="material-icons " style="color: #EC5800;">article</span>&nbsp;&nbsp;&nbsp;
+        <a href="#" >Write article</a>
+      </div>
+     <!--  <div class="post1Column">
+        <div class="avatarClass">
+          <img src="avatar.png" class="avatarlog" alt="avatar"/>
+        </div>
+       <div class="avatarInput"> 
+          <input type="text" placeholder="Start a post, try writing with AI" name="post"></div>
+          <div class="postMenu">
+            <a href="#" >Media</a>
+            <a href="#" >Job</a>
+            <a href="#" >Write article</a>
+
+   </div>
+
+   </div>-->
+    </div> 
+    <hr>
+  <div class="post">
+    <br>
+    <img src="avatar.png" style="width:3rem;height: 2rem;" alt="avatar"/>
+    <span style="font-size: .7rem;"> Darshan Rathod commented on this</span> <span class="material-icons" style="float:right;">close&nbsp;&nbsp;</span><span class="material-icons" style="float:right">more_horiz&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <hr>
+    <div style="float : right"><span class="material-icons" style="color: darkblue;font-size: .8rem;">add</span><span style="color: darkblue;font-size: .8rem;">Follow</span></div>
+    <img src="avatar.png" style="width:6rem;height: 4rem;" alt="avatar"/><b>Ankur Warikoo </b>&nbsp;&nbsp;<p style="font-size: .8rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Founder @WebVeda, content Creator</p>
+   
+    <iframe   width="560" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+   
+  </div>
+</div>
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="section">
+<div class="section2">
+  <p class="h1">LinkedIn News</p>
+  <p class="h2">Top stories</p>
+  <p class="h3">UAE announces cabinet changes</p> 
+  <p class="h4">22h ago &#x2022;673 readers</p> 
+
+
+<p class="h3">What is AI? No one can agree</p>
+<p class="h4">1d ago &#x2022; 3,510 readers</p>
+<p class="h3">Apple exceeds $3.5T market cap</p>
+<p class="h4">3d ago  &#x2022; 2,571 readers</p>
+<p class="h3">UAE rolls out competition law</p>
+<p class="h4">1 day ago &#x2022; readers </p>
+<p class="h3">Mideast startups see funding dip</p>
+<p class="h4">6d ago  &#x2022;  readers</p>
+  
+</div><br>
+<div class="section21"></div>
+</div>
+ </div>
+</div>
+
+
+
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

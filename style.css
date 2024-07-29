@@ -1,0 +1,205 @@
+.box{
+    width :8em;
+    height: 10em;
+    font-size: .8em;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+   
+}
+.box a{
+    color: 		#606060;
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+.box a:hover {
+    /* background-color: #04AA6D; */
+    color: black;
+  }
+  
+
+.container .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 120px;
+}
+.container .content{
+display: flex;
+flex-direction: row;
+ padding-left: 200px;
+ 
+}
+@media (max-width: 800px) {
+    .container .content {
+      flex-direction: column;
+    }
+  }
+.post{
+    width:35rem;
+    height: 50rem;
+    background-color: white;;
+    border-radius: .5rem;
+
+}
+
+.post1{
+
+  width:35rem;
+    height: 8rem;
+    background-color: white;;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+.post1_img{
+    display: flex;
+    flex-direction: row;
+}
+.post1_menu{
+    display:flex;
+    flex-direction: row;
+    padding-left: 5rem;
+    /* padding-top: 1rem; */
+}
+.post1_menu a{
+    text-decoration: none;
+    align-items: space-between;
+    flex-grow: 1;
+    color: #353935;
+    font-size: .9rem;
+    padding-top: .2rem;
+}
+.avatarlog{
+    height: 5rem;
+    width: 8rem;
+}
+.post1 input{
+
+   width:26rem;
+   height: 2.7rem;
+   border-radius: 2rem;
+   border-color: #B2BEB5;
+   border-style: solid;
+    margin-top: 1rem;
+    background-color: 	#FAF9F6;
+  
+}
+.post1  ::placeholder{
+    padding-left: 1rem;
+    font-weight:600;
+    
+
+}
+
+.section{}
+   
+.section1{
+    width:15rem;
+    height: 23rem;
+    background-color: white;;
+    border-radius: .5rem;
+ 
+  
+}
+.section1 img{
+    width :10rem;
+    height: 6rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+
+}
+.section1 .bg{
+    height: 4rem;
+    background-color: #89CFF0;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+   
+}
+.section1 .name{
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+    color: #353935;
+}
+.section1 .name p{
+    color: #686868;
+    font-size: .7rem;
+    padding-left: 1rem;
+}
+.section1 .career{
+    font-size: .75rem;
+    padding-left: .8rem;
+    font-family: "Times New Roman", Times, serif;
+}
+.section1 .profile{
+    font-size: .75rem;
+    padding-left: .8rem;
+    font-family: "Times New Roman", Times, serif;
+}
+.section1 .profile span{
+    float :right
+}
+.section11{
+    width:15rem;
+    height: 18rem;
+    background-color: white;;
+    border-radius: .5rem;
+}
+.section11 ul {
+    list-style: none;
+    font-size: .7rem;
+    padding-left: -1rem;
+}
+.section11 span{
+    font-size: 18px;
+}
+.section2{
+    width:18rem;
+    height: 30rem;
+    background-color: white;;
+    border-radius: .5rem;
+    padding-left: 2rem;
+    padding-top:1rem ;
+}
+.section2 .h1{
+ font-size: large;
+ font-weight: bold;
+
+}
+.section .h2{
+ font-size: 1rem;
+ color: #686868;
+
+}
+.section .h3{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.section .h4{
+    font-size: .5rem;
+    font-size: .85rem;
+    color: #36454F;
+}
+.section21{
+    width:18rem;
+    height: 20rem;
+    background-color: white;;
+    border-radius: .5rem;
+}
+.post-container{
+    display: flex;
+flex-direction: column;
+ 
+}
+/* .post-box{
+
+    width :40rem;
+    background-color:#F5F5F5;
+    margin-top: 5rem;;
+    margin-left: 5rem;
+    height: 50rem;
+} */
+
+
