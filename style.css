@@ -1,11 +1,86 @@
 .box{
-    width :8em;
+    width :6em;
     height: 10em;
     font-size: .8em;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
+    
     display: flex;
-   
+    position:relative; 
+}
+.icon-button__badge{
+    position: absolute;
+    font-size: 4rem;
+   width:18px;
+   height: 18px;
+    top:2px;
+   left: 20px;
+   background-color: red;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}
+.icon-button__badge_network{
+    position: absolute;
+    font-size: .7rem;
+   width:18px;
+   height: 18px;
+    top:2px;
+   left:40px;
+   background-color: red;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-weight: 600;
+}
+.icon-button__badge_job{
+    position: absolute;
+    font-size: .7rem;
+   width:18px;
+   height: 18px;
+    top:2px;
+   left:20px;
+   background-color: red;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-weight: 600;
+}
+.icon-button__badge_message{
+    position: absolute;
+    font-size: .7rem;
+   width:18px;
+   height: 18px;
+    top:2px;
+   left:38px;
+   background-color: red;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-weight: 600;  
+}
+.icon-button__badge_notification{
+    position: absolute;
+    font-size: .7rem;
+   width:18px;
+   height: 18px;
+    top:2px;
+   left:38px;
+   background-color: red;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-weight: 600; 
 }
 .box a{
     color: 		#606060;
@@ -42,7 +117,6 @@ flex-direction: row;
     height: 50rem;
     background-color: white;;
     border-radius: .5rem;
-
 }
 
 .post1{
@@ -193,6 +267,8 @@ flex-direction: row;
     display: flex;
 flex-direction: column;
  
+
+
 }
 /* .post-box{
 
